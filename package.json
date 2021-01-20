@@ -52,8 +52,7 @@
     "start": "node server",
     "start-dev": "webpack -w & nodemon server",
     "seed": "node script/seed.js",
-    "deploy": "script/deploy",
-    "heroku-postbuild": "webpack -p"
+    "deploy": "script/deploy"
   },
   "repository": {
     "type": "git",
