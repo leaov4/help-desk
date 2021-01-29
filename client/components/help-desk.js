@@ -11,7 +11,7 @@ const HelpDesk = props => {
     
     //helpers array will be modified as a Queue to ensure cycling through available help desk employees (ie, the same person isn't picking up all of the tickets. once someone resolves a ticket, they are moved to the end of the line)
     const [showForm, setShowForm] = useState(false)
-    const [helpers, setHelpers] = useState([{name: 'Jane Doe', busy: false, email: ""}, {name: 'Tony Stark', busy: false, email: "stark@monstersinc.dev"}, {name: 'John Smith', busy: false, email: "john@monsters.inc"}, {name: 'Jim Norm', busy: true, email: ""}, {name: 'Ben Rasa', busy: true, email: ""}] )
+    const [helpers, setHelpers] = useState([{name: 'Jane Doe', busy: false, email: "jane@helpdesk.dev"}, {name: 'Lea Overend', busy: false, email: "lea@helpdesk.dev"}, {name: 'John Smith', busy: false, email: "john@helpdesk.dev"}, {name: 'Jim Norm', busy: true, email: "jim@heldesk.dev"}, {name: 'Ben Rasa', busy: true, email: ""}] )
     const [formText, setFormText] = useState('')
     
     //current ticket

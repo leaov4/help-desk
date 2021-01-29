@@ -5960,19 +5960,19 @@ var HelpDesk = function HelpDesk(props) {
   var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([{
     name: 'Jane Doe',
     busy: false,
-    email: ""
+    email: "jane@helpdesk.dev"
   }, {
-    name: 'Tony Stark',
+    name: 'Lea Overend',
     busy: false,
-    email: "stark@monstersinc.dev"
+    email: "lea@helpdesk.dev"
   }, {
     name: 'John Smith',
     busy: false,
-    email: "john@monsters.inc"
+    email: "john@helpdesk.dev"
   }, {
     name: 'Jim Norm',
     busy: true,
-    email: ""
+    email: "jim@heldesk.dev"
   }, {
     name: 'Ben Rasa',
     busy: true,
