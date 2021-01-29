@@ -141,7 +141,7 @@ const HelpDesk = props => {
                                 delay={{ show: 250, hide: 400 }}
                                 overlay={renderTooltip2}
                                 >
-                                <Top>Help Desk Staff on Deck</Top>
+                                <Top><span className="hover">Help Desk Staff on Deck</span></Top>
                             </OverlayTrigger>
                         {/*connect to state, map helpers here*/}
                         { helpers.map((item) => {
@@ -196,6 +196,7 @@ const MyContainer = styled.div`
     margin: 0 auto;
     background-color: black;
     padding: 20px;
+    color: #43474c;
 
     .col {
         text-align: center;
@@ -266,11 +267,19 @@ const MyContainer = styled.div`
     }
     .hover {
         width: 90px;
+        &:hover {
+            color: 	#A8A8A8;
+        }
+    }
+
+    @media (max-width: 679px) { 
+        padding-bottom: 100px;
     }
 `
 
 const Top = styled.div`
     height: 80px;
     text-align: center;
+  
 `
 

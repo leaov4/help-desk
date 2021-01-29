@@ -5892,7 +5892,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Form.js");
 /* harmony import */ var _ticket_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ticket.js */ "./client/components/ticket.js");
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n    height: 80px;\n    text-align: center;\n"]);
+  var data = _taggedTemplateLiteral(["\n    height: 80px;\n    text-align: center;\n  \n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -5902,7 +5902,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n    width: 100%;\n    overflow: hidden;\n    margin: 0 auto;\n    background-color: black;\n    padding: 20px;\n\n    .col {\n        text-align: center;\n    }\n\n    .left {\n        text-align: left;\n        position: relative;\n        height: 90vh;\n        p {\n            margin-top: -10px;\n        }\n    }\n    \n    button {\n        width: 90%;\n        margin-top: 5px;\n    }\n\n    .info{\n        position: absolute;\n        bottom: 50px;\n    }\n\n    .row {\n        margin-top: 25px;\n    }\n\n    .doug {\n        color: ", ";\n        transition: 3s;\n        font-size: 30px;\n    }\n\n    .box {\n        margin: 30px 0px;\n        padding: 6px;\n        border-radius: 1.5px;\n        animation-name: ", ";\n        animation-duration: 1.5s;\n      \n    }\n    .issue {\n        margin-top: 5px;\n    }\n\n    .ticket-text {\n        font-size: 10px;\n        padding: 5px 0px;\n    }\n\n    .in-progress {\n        background-color: #88B04B;\n    }\n\n    .pending {\n        background-color: #fddb3a;\n\n    }\n\n    .slide-in {\n        width: 100%;\n        background-color: #b8e86f;\n        margin: 0px;\n        padding: 5px;\n        font-size: 12px;\n        border-radius: 1.5px;\n    }\n    .hover {\n        width: 90px;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n    width: 100%;\n    overflow: hidden;\n    margin: 0 auto;\n    background-color: black;\n    padding: 20px;\n    color: #43474c;\n\n    .col {\n        text-align: center;\n    }\n\n    .left {\n        text-align: left;\n        position: relative;\n        height: 90vh;\n        p {\n            margin-top: -10px;\n        }\n    }\n    \n    button {\n        width: 90%;\n        margin-top: 5px;\n    }\n\n    .info{\n        position: absolute;\n        bottom: 50px;\n    }\n\n    .row {\n        margin-top: 25px;\n    }\n\n    .doug {\n        color: ", ";\n        transition: 3s;\n        font-size: 30px;\n    }\n\n    .box {\n        margin: 30px 0px;\n        padding: 6px;\n        border-radius: 1.5px;\n        animation-name: ", ";\n        animation-duration: 1.5s;\n      \n    }\n    .issue {\n        margin-top: 5px;\n    }\n\n    .ticket-text {\n        font-size: 10px;\n        padding: 5px 0px;\n    }\n\n    .in-progress {\n        background-color: #88B04B;\n    }\n\n    .pending {\n        background-color: #fddb3a;\n\n    }\n\n    .slide-in {\n        width: 100%;\n        background-color: #b8e86f;\n        margin: 0px;\n        padding: 5px;\n        font-size: 12px;\n        border-radius: 1.5px;\n    }\n    .hover {\n        width: 90px;\n        &:hover {\n            color: \t#A8A8A8;\n        }\n    }\n\n    @media (max-width: 679px) { \n        padding-bottom: 100px;\n    }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -6141,7 +6141,9 @@ var HelpDesk = function HelpDesk(props) {
       hide: 400
     },
     overlay: renderTooltip2
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Top, null, "Help Desk Staff on Deck")), helpers.map(function (item) {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Top, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "hover"
+  }, "Help Desk Staff on Deck"))), helpers.map(function (item) {
     if (!item.busy) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_7__.default, {
         variant: "light"
